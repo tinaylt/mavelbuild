@@ -1,0 +1,39 @@
+html, body {
+    height: 100;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+/*main header rules*/
+
+header {
+    background-color: red;
+    padding: 10px 0px:0
+}
+
+#main-logo {
+    width: 300px;
+    display: block;
+    margin: 0px auto;
+}
+
+.characters {
+    list-style-type: none;
+    padding: o;
+}
+
+.characters li {
+    height: 220px;
+    margin: 10px 8px;
+    background-color: black;
+    text-align: left;
+    cursor: pointer;
+}
+
