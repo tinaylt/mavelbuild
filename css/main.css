@@ -15,7 +15,7 @@ body {
 
 header {
     background-color: red;
-    padding: 10px 0px:0
+    padding: 10px 0px;
 }
 
 #main-logo {
@@ -24,8 +24,19 @@ header {
     margin: 0px auto;
 }
 
+#character_nav {
+    background-color: #675050;
+    background-image: url('../images/characters_art_mas_mob_01.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
 .characters {
     list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: o;
 }
 
@@ -35,5 +46,58 @@ header {
     background-color: black;
     text-align: left;
     cursor: pointer;
+    transition: box-shadow 0.2s ease;
+    box-shadow: 0 155px 0 0 rgb(255,0,0), inset;
 }
 
+.characters li:hover {
+    box-shadow: 0 220px 0 0 rgb(255,0,0) inset;
+}
+
+.characters li h5 {
+    color: white;
+    padding: 12px 8px;
+}
+
+.characters li a {
+    text-decoration: none;
+}
+
+/*---Sprite---*/
+
+.sprite {
+    width: 150px;
+    height: 150px;
+    background-image: url('../images/marvelSprites.jpg');
+}
+
+#carol {
+    background-position: -150px 0;
+}
+
+#clint {
+    background-position: -300px 0;
+}
+
+#hulk {
+    background-position: -450px 0;
+}
+
+#thor {
+    background-position: -600px 0;
+}
+
+#widow {
+    background-position: -750px 0;
+}
+
+#cap:hover, #carol:hover, #clint:hover, #hulk:hover, #thor:hover, #widow:hover {
+    background-position-y: -150px;
+}
+
+/*-- Footer Rules --*/
+footer {
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
