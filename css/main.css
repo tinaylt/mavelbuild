@@ -63,6 +63,24 @@ header {
     text-decoration: none;
 }
 
+article, #instructions {
+    padding: 20px;
+}
+
+article h3, #instructions h3 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+article p, #instruction p {
+    width: 80%;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin: 0px auto;
+}
+
 /*---Sprite---*/
 
 .sprite {
